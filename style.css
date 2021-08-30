@@ -555,6 +555,7 @@ section.work{
     margin-top: 0;
 }   
 
+
 /* charity partners */
 .chp-wrapper{
     display: flex;
@@ -580,9 +581,15 @@ section.work{
     margin-right: 0;
 }
 .f-box .fMenu-logo h1{
+    margin-bottom: 20px;
+}
+.f-box .fMenu-logo h1 a{
+    text-decoration: none;
     color: #fff;
     font-size: 26pt;
-    margin-bottom: 20px;
+    text-decoration: none;
+}
+.fMenu-logo h1 a{
 }
 .f-box .fMenu-logo span{
     color: #E83338;
@@ -606,8 +613,13 @@ section.work{
     color: #999;
     text-decoration: none;
     font-size: 12pt;
+    opacity: .85;
+    transition: all .3s ease;
 }
-
+.f-box .fMenu-items ul li a:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
 .f-box .fMenu-icons ul{
     display: flex;
     list-style: none;
@@ -626,6 +638,12 @@ section.work{
     line-height: 30px;
     font-size: 17pt;
     border-radius: 50%;
+    opacity: .85;
+    transition: all .4s ease;
+}
+.f-box .fMenu-icons ul li a:hover{
+    opacity: 1;
+    transform: scale(1.1);
 }
 .f-box .submit-btn input[type="text"]{
     width: 100%;
